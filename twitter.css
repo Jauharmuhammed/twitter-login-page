@@ -1,0 +1,258 @@
+.container {
+    width: 100%;
+    height: 840px;
+    background-color: black;
+}
+
+.top-main {
+    width: 100%;
+    height: 750px;
+}
+
+.left-section {
+    width: 51.5%;
+    height: 750px;
+    float: left;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+body {
+    margin: 0;
+}
+
+.icon {
+    position: absolute;
+    left: 149px;
+    top: 202px;
+    width: 360px;
+}
+
+.right-section {
+    width: 48.5%;
+    float: left;
+    height: 750px;
+}
+
+
+.right-content {
+    float: left;
+    padding-left: 40px;
+}
+
+.icon-small {
+    padding-top: 50px;
+    width: 50px;
+    display: block;
+    padding-bottom: 60px;
+}
+
+.text-happening {
+    font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 70px;
+    font-size: 64px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-weight: 700;
+    height: 84px;
+    letter-spacing: -1.2px;
+    color: rgb(231, 233, 234);
+    margin-bottom: 50px;
+}
+
+.text-join {
+    font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 70px;
+    font-size: 35px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-weight: 700;
+    height: 84px;
+    letter-spacing: -1.2px;
+    color: rgb(231, 233, 234);
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    height: 75px;
+}
+
+.button {
+    width: 280px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.button-google {
+    color: rgb(15, 20, 25);
+    background-color: rgb(231, 233, 234);
+    padding-left: 25px;
+
+}
+
+.button-google:hover {
+    opacity: 0.9;
+}
+
+.google-icon {
+    width: 20px;
+    position: absolute;
+    margin-left: -25px;
+}
+
+.button-apple {
+    background-color: rgb(231, 233, 234);
+    font-weight: bold;
+    padding-left: 25px;
+}
+
+.button-apple:hover {
+    opacity: 0.9;
+}
+
+.apple-icon {
+    width: 20px;
+    position: absolute;
+    margin-left: -25px;
+}
+
+.line-main {
+    width: 280px;
+    height: 10px;
+    display: inline-block;
+    padding-top: -5px;
+}
+
+.line-left {
+    height: 1px;
+    background-color: rgb(47, 51, 54);
+    width: 125px;
+    display: inline-block;
+
+}
+
+.line-right {
+    height: 1px;
+    background-color: rgb(47, 51, 54);
+    width: 125px;
+    display: inline-block;
+}
+
+.or {
+    color: rgb(231, 233, 234);
+    display: inline-block;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    padding-left: 3px;
+    padding-right: 3px;
+
+}
+
+.button-signup {
+    margin-top: 15px;
+    font-weight: bold;
+    background-color: rgb(29, 155, 240);
+    color: white;
+    overflow-wrap: break-word;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.button-signup:hover {
+    background-color: rgb(30, 143, 218);
+}
+
+.terms {
+    width: 280px;
+    color: white;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 9.4px;
+    padding-bottom: 35px;
+}
+
+.a1 {
+    text-decoration: none;
+    color: rgb(29, 155, 240);
+}
+
+.a1:hover {
+    text-decoration: underline;
+}
+
+.account {
+    color: rgb(231, 233, 234);
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.button-signin {
+    background-color: black;
+    width: 280px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 12px;
+    text-align: center;
+    color: rgb(29, 155, 240);
+    font-weight: bold;
+    border-color: #2196F3;
+    border: 1px solid rgb(102, 101, 101);
+    box-sizing: border-box;
+}
+
+.button-signin:hover {
+    background-color: #09121b;
+    text-decoration: none;
+}
+
+
+.bottom-main {
+    width: 100%;
+    height: 60px;
+}
+
+.about {
+    color: rgb(97, 97, 97);
+    font-size: 12.5px;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    padding-top: 5px;
+    line-height: 25px;
+}
+.about li{
+    display: inline;
+    margin-right: 20px;
+}
+
+.copyright {
+    word-spacing: 1px;
+}
+
+a {
+    text-decoration: none;
+}
